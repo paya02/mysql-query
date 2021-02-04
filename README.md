@@ -8,5 +8,7 @@
 curl -s https://laravel.build/mysql-query | bash
 ./vendor/bin/sail up (必要に応じてエイリアスを設定してください)
 ./vendor/bin/sail composer install 
-php artisan migrate --seed
+php artisan migrate
+sail php artisan db:seed --class=FlightSeeder
+sail php artisan db:seed --class=DestinationSeeder
 ```
