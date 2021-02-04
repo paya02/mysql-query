@@ -1,6 +1,6 @@
 # Laravel クエリビルダ & MySQLテストリポジトリ
 ## 概要
-こちらは以下の記事用のリポジトリです。
+こちらは以下の記事用のリポジトリです。<br>
 [Laravel + MySQLでグループごとにランク付け/指定順位のデータだけ取得する方法(Window関数の代替)](https://zenn.dev/articles/e5f0e2147d49e0/edit)
 
 ## 初回のみ実行
