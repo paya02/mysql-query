@@ -15,6 +15,9 @@ class CreateFlightsTable extends Migration
     {
         Schema::create('flights', function (Blueprint $table) {
             $table->id();
+            $table->unsignedInteger('destination_id');
+            $table->string('name');
+            $table->datetime('arrived_at');
             $table->timestamps();
         });
     }
