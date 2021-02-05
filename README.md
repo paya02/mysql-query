@@ -11,4 +11,5 @@ curl -s https://laravel.build/mysql-query | bash
 php artisan migrate
 sail php artisan db:seed --class=FlightSeeder
 sail php artisan db:seed --class=DestinationSeeder
+sail npm install && npm run dev 
 ```

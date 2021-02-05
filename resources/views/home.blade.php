@@ -1,28 +1,6 @@
-<style>
-    table {
-        margin-bottom: 20px;
-    }
+@extends('layouts.app')
 
-    table, th, td {
-        border-collapse: collapse;
-        border: 1px solid #ccc;
-        line-height: 1.5;
-    }
-
-    table th {
-        width: 150px;
-        padding: 10px;
-        font-weight: bold;
-        vertical-align: top;
-        background: #3f3f3f;
-        color: #ffffff;
-    }
-    table td {
-        width: 150px;
-        padding: 10px;
-        vertical-align: top;
-    }
-</style>
+@section('content')
 <table>
     <tr>
         <th>目的地id</th>
@@ -69,3 +47,4 @@
         </tr>
     @endforeach
 </table>
+@endsection
